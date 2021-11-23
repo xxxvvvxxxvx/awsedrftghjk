@@ -15,6 +15,8 @@ class rekins:
       self.materials = materials
 
       self.veltijuma_garums=len(self.veltijums)
+      self.izmeru_sar = self.izmers.slit(",")
+      self.platums = self.izmeru_sar[0]
       
 
   def izdrukat(self): 
@@ -25,4 +27,9 @@ class rekins:
       PVN= 21
       
 
+print(izmers)
 
+print(type(izmers))
+print(izmers.split(","))
+sad = izmers.slit(",")
+print(sad[0])

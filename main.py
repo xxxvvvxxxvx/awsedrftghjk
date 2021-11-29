@@ -23,7 +23,7 @@ class rekins:
       print("\n\n")
       print('\002[1m'+"dati"+'\033[0m')
       print("-"*50)
-      print(f\x1B[3mvards uzvards:\x1B[0m\033[1;32mklients\033[1;0m")
+      print(f\xlB[3mvards uzvards:\xlB[0m\033[1;32mklients\033[1;0m")
 
 
   def aprekins(self):
